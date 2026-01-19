@@ -1,0 +1,19 @@
+ /* O .App seleciona o elemento com a classe App, que no App.jsx envolve todo o conteúdo da aplicação.*/
+.App {
+  font-family: Arial, sans-serif; /*Define a fonte como Arial*/
+  display: flex; /*Flexbox para centralizar */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa toda a altura da viewport que é a altura da tela */            
+  background-image: url("https://www.hdwallpapers.in/download/white_wallpaper_18_4k_5k_hd_white-HD.jpg"); /* imagem de fundo*/
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-direction: column; /* Alinha os itens em coluna */     
+  gap: 20px; /* Espaçamento entre os itens */
+}
+
+.App h1 {
+  margin-bottom: 20px;
+  color: #000000;
+}

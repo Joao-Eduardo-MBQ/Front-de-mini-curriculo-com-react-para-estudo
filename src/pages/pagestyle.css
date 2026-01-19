@@ -1,0 +1,51 @@
+.page-card {
+  width: 500px;
+  /* Retire a altura fixa para o conteúdo ajustar */
+  min-height: 250px; /* altura mínima, para manter tamanho base */
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* centraliza verticalmente */
+  align-items: center;     /* centraliza horizontalmente */
+
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  transition: transform 0.2s;
+}
+
+.page-card:hover {
+  transform: scale(1.02); /* Aumenta em 2% o cartão ao passar o mouse */
+}
+
+.page-card h2 {
+  margin-bottom: 20px;
+  color: rgb(0, 0, 0)
+}
+
+.page-card button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #d4d4d4; /* Cor de fundo vermelha */
+  color: rgb(0, 0, 0); /* Cor do texto branca */
+  border: none;
+  border-radius: 15px; /* Bordas arredondadas */
+  font-weight: bold; /* Texto em negrito */
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s; /* Animação suave na mudança de cor e ao passar o mouse */
+}
+
+.page-card button:hover {
+  background-color: #868686; /* Cor de fundo mais escura ao passar o mouse */
+  transform: scale(1.02); /* Aumenta em 2% o botão ao passar o mouse */
+  color: white; 
+}
+
+.page-card p {
+  text-align: center;
+  margin: 10px 0;
+  color: #333333;
+}
