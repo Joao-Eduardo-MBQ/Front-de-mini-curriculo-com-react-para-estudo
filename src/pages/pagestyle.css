@@ -2,12 +2,10 @@
   width: 500px;
   /* Retire a altura fixa para o conteúdo ajustar */
   min-height: 250px; /* altura mínima, para manter tamanho base */
-  
   display: flex;
   flex-direction: column;
   justify-content: center; /* centraliza verticalmente */
   align-items: center;     /* centraliza horizontalmente */
-
   padding: 15px;
   border: 2px solid #ccc;
   border-radius: 10px;
@@ -29,8 +27,8 @@
 .page-card button {
   margin-top: 20px;
   padding: 10px 20px;
-  background-color: #d4d4d4; /* Cor de fundo vermelha */
-  color: rgb(0, 0, 0); /* Cor do texto branca */
+  background-color: #d4d4d4; /* Cor de fundo cinza */
+  color: rgb(0, 0, 0); /* Cor do texto preta*/
   border: none;
   border-radius: 15px; /* Bordas arredondadas */
   font-weight: bold; /* Texto em negrito */

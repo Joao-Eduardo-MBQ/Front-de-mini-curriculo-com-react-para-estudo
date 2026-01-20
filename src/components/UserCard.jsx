@@ -21,7 +21,7 @@ const UserCard = ({ name, description, avatar, links }) => {
 
       {/* Descrição do usuário */}
       <p>{description}</p>
-
+      
       {/* Container para os links de navegação */}
       <div className="links">
         {/* Verifica se existem links, e para cada link cria um botão/link navegável */}

@@ -26,14 +26,14 @@ function App() {
         {/* Título principal da página */}
         <h1>Mini Currículo</h1>
 
-        {/* Define as rotas da aplicação */}
+        {/* Define as rotas da aplicação */}  
         <Routes>
           {/* Rota raiz "/" exibe o componente UserCard com dados do usuário */}
           <Route path="/" element={
             <UserCard 
-              name="Reimu Hakurei Fumo" // Nome do usuário
+              name="Nome de Usuário" // Nome do usuário
               description="Desenvolvedora front-end com experiência em criação de interfaces web responsivas, focadas em usabilidade e experiência do usuário." // Descrição
-              avatar="https://ae01.alicdn.com/kf/S570c5b1807e3407890956b70cd0ccba8M.jpg" // Foto do usuário
+              avatar="https://i.pinimg.com/474x/13/74/20/137420f5b9c39bc911e472f5d20f053e.jpg" // Foto do usuário
               links={userLinks} // Links para navegação, passado como props
             />
           } />
